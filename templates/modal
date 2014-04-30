@@ -1,0 +1,27 @@
+<div>
+	<div class="addButton">
+		<a data-toggle="modal" href="#myModal"><img src=img/add.png alt=Rutas width=70 height=70></a>
+		Agregar Rese&#241;a...
+	</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <!--<h4 class="modal-title">Modal title</h4>-->
+      <section class="styles">
+      <input type="text" name="fname">
+      </section>
+    </div>
+    <div class="modal-body">
+      ...
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

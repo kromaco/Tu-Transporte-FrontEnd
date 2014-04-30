@@ -1,0 +1,562 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        body p {
+            font-style: italic;
+            font-weight: 300; /* You specify the number you see next to the fonts to change from light to bold ie you would put 700 etc. etc. */
+        }
+
+body {
+}
+
+.styles .tituloLogin {
+    width: 620px;
+    height: 110px;
+    /*padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 50;*/
+    text-align: center;
+    color: #bfbfbf;
+    margin-bottom: 30px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    font-size: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+}
+
+.styles .titulo {
+    width: 620px;
+    height: 110px;
+    /*padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 50;*/
+    text-align: center;
+    color: #bfbfbf;
+    margin-bottom: 30px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    font-size: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.styles .subtitulo {
+    width: 620px;
+    height: 30px;
+    text-align: center;
+    color: #bfbfbf;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.styles .mensaje {
+    width: 620px;
+    height: 54px;
+    text-align: center;
+    color: #bfbfbf;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.styles .addButton {
+    width: 160px;
+    height: 54px;
+    text-align: center;
+    color: #bfbfbf;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.styles .addButton img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.styles .resena{
+    margin-left: 20%;
+    margin-right: 115px;
+}
+
+.styles .informacionError {
+    width: auto;
+    height: 60px;
+    text-align: center;
+    color: #bfbfbf;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.styles .bottom {
+    width: 220px;
+    height: 40px;
+    padding-top: 90px;
+    text-align: center;
+    color: #bfbfbf;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button:hover{
+    background: #f5f5f5;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+}
+
+.styles form {
+    width: 300px;
+    height: 220px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.styles form input[type=text], .styles form input[type=password] {
+    width: 280px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: ligth;
+    padding-top: 18px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    border: 2px;
+    color: #aaaaaa;
+    background: #ffffff;
+    outline: none;
+    margin: 0;
+}
+
+.styles form input[type=text] {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top: #a0a0a0 solid 2px;
+    border-left: #a0a0a0 solid 2px;
+    border-left: #a0a0a0 solid 2px;
+    border-right: #a0a0a0 solid 2px;
+    border-right: #a0a0a0 solid 2px;
+
+}
+
+.description{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top: #FFa0a0 solid 2px;
+    border-left: 0px;
+    border-left: #a0a0a0 solid 2px;
+    border-right: 0px;
+    border-right: #a0a0a0 solid 2px;
+    background: red;
+}
+
+.styles form input[type=password] {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top: #a0a0a0 1px solid;
+    border-bottom: #353535 0.5px solid;
+    border-left: #a0a0a0 solid 2px;
+    border-right: #a0a0a0 solid 2px;
+    border-bottom: #a0a0a0 solid 2px;
+}
+
+.styles form .enviar {
+    width: 180px;
+    height: 56px;
+    display: block;
+    margin-top: 38px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    color: #606060;
+    background: white;
+}
+
+.styles .vinculo {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin-top: 38px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    color: #606060;
+}
+
+.styles .cerrarSesion {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-top: 38px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: 25%;
+    margin-right: auto;
+    color: #606060;
+}
+
+.styles .reviewsTable{
+    width: 750px;
+    margin: 0 auto;
+}
+
+.styles .routesTable{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.styles .reviewsBodyColumn{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    vertical-align: top;
+    padding: 5px;
+    color: #606060;
+    background: none;
+}
+
+.styles .routesBodyColumn{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    vertical-align: top;
+    padding: 5px;
+    color: #606060;
+    background: none;
+    width: 510px;
+}
+
+table
+{
+    border-collapse:collapse;
+}
+table, td, th
+{
+    border-top:2px solid #C0C0C0;
+    margin-top: 2px;
+}
+.styles .tableButton{
+    vertical-align: top;
+    padding: 5px;
+}
+
+.styles .boldText {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #202020;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
+
+body { line-height: 1 }
+
+ol, ul { list-style: none }
+
+blockquote, q { quotes: none }
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/*Edit Views*/
+
+
+.contentInspector .name {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: #a0a0a0 solid 2px;
+    text-align: center;
+    outline-width: 0px;
+    margin-bottom: 10px;
+    width: 550px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.contentInspector .counter {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    text-align: center;
+    outline-width: 0px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 510px;
+    position: relative;
+    left:-10px;
+    top: -40px;
+    background: none;
+    color: #404040;
+}
+
+.contentInspector .RevDescription {
+    border-top: #a0a0a0 solid 2px;
+    border-left: #a0a0a0 solid 2px;
+    border-right: #a0a0a0 solid 2px;
+    border-bottom: #a0a0a0 solid 2px;
+    text-align: left;
+    outline-width: 0px;
+    margin-bottom: 10px;
+    width: 550px;
+    border-radius: 12px;
+    height: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; 
+    resize: none;
+}
+
+.contentInspector form .save {
+    width: 180px;
+    height: 56px;
+    display: block;
+    margin-top: -25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #404040;
+    float: left;
+    background: white;
+}
+
+.contentInspector .cancel {
+    width: 180px;
+    height: 28px;
+    display: block;
+    margin-top: -25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    color: #A0A0A0;
+    float: left;
+}
+
+.contentInspector form {
+    height: 320px;
+    width: 550px;
+    /*overflow: hidden;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.contentInspector ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.contentInspector li
+{
+    display:inline;
+}
+
+.contentInspector .centerDiv
+{
+    width: 550px;
+    margin-left: 100px;
+}
+
+#fileElem {
+  /* Note: display:none on the input won't trigger the click event in WebKit.
+    Setting visibility: hidden and height/width:0 works great. */
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+#fileSelect {
+    width: 175px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #404040;
+    background: white;
+    border-top: #a0a0a0 solid 2px;
+    border-left: #a0a0a0 solid 2px;
+    border-right: #a0a0a0 solid 2px;
+    border-bottom: #a0a0a0 solid 2px;
+    border-radius: 12px;
+    margin-top: -80px;
+    position: relative;
+    left:0px;
+    top: -30px;
+  /* style the button any way you want */
+}
+
+/*Routes Styles*/
+
+#fileSelectRoutes {
+    width: 240px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #404040;
+    background: white;
+    border: #a0a0a0 solid 2px;
+    border-radius: 12px;
+    margin-top: 6px;
+    margin-left: auto;
+    
+    position: relative;
+    left:150px;
+    top: 4px;
+  /* style the button any way you want */
+}
+
+
+.contentInspector form .saveRoutes {
+    width: 180px;
+    height: 56px;
+    display: block;
+    margin-top: -25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #404040;
+    float: left;
+    background: white;
+    margin-top: 20px;
+}
+
+.contentInspector .cancelRoutes {
+    width: 180px;
+    height: 28px;
+    display: block;
+    margin-top: -25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    color: #A0A0A0;
+    float: left;
+    margin-top: 20px;
+}
+
+.contentInspector .message {
+    width: 700px;
+    height: 80px;
+    text-align: center;
+    color: #505050;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -125px;
+}
